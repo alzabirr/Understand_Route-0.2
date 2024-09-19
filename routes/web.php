@@ -29,3 +29,4 @@ Route::get("/rafi", [testController:: class, "fun"]);
 Route::get("/hi/this/is", [testController::class, 'funny']);
 
 
+Route::get("/hi", [testController::class, "under"]);

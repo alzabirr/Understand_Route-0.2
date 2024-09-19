@@ -21,6 +21,10 @@ class testController extends Controller
     }
 
 
+    function under (){
+        return response("hi ji ");
+    }
+
 
 
 }
